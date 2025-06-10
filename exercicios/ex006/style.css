@@ -1,0 +1,39 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Love';
+    src: url(love\ larry\ ttf.ttf);
+}
+
+*{
+    font-family: "Jersey 10" ;
+}
+body {
+    background-image: linear-gradient(to right, #00CCBF, #72F2EB);
+    color: #3F7C85;
+}
+main {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 20px #1e1e1e;
+    width: 600px;
+    padding: 20px;
+    padding-top: 5px;
+    margin: auto;
+}
+h1 {
+    color: #FF5F5D;
+    text-align: center;
+    text-shadow: 1px 1px 2px #1e1e1e;
+    text-decoration: underline;
+    font-family: 'Love';
+    font-size: 2.5em;
+}
+h2 {
+    color: #f87c7a;
+    text-decoration: underline;
+    font-size: 1.8em;
+}
+p {
+    text-align: justify;
+    font-size: 1.2em;
+}

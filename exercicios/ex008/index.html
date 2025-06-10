@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peseuduclassis</title>
+    <style>
+        div{
+            background-color: #f7f331;
+            text-align: center;
+            border:2px solid purple;
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+        }
+        div:hover{
+            background-color: blueviolet;
+            border: 2px solid #f7f331;
+            color: white;
+        }
+        #d3 > img{
+            display: none;
+        }
+        #d3:hover > img{
+            display: block;
+            width: 200px;
+        }
+        #list_title{
+            font-size: 1.3em;
+            text-decoration: underline;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        ul{
+            text-align: center;
+        }
+        li{
+            padding-bottom: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(91, 41, 137);
+        }
+        a:hover{
+            color: green;
+            text-decoration: underline;
+            font-weight: bolder;
+        }
+        a::after {
+            content: ' ⇦';
+            color: rgb(110, 110, 110);
+            font-weight: normal;
+        }
+        a::before {
+            content: '⇨ ';
+            color: rgb(110, 110, 110);
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03
+        <img src="download.jpg" alt="">
+    </div>
+    <ul type="none">
+        <p id="list_title">coisas legais</p>
+        <li><a href="https://br.pinterest.com/IsaqueUide/sci-fi/" target="_blank"> minha pasta com coisas sci-fis</a></li>
+        <li><a href="https://drive.google.com/drive/folders/10VYrdtAkz8iACqmbmEGlxnzk-cc6nol9?usp=drive_link" target="_blank"> Essa pasta no drive com Black Lagoon</a></li>
+        <li><a href="https://br.pinterest.com/pin/14636767535409038/" target="_blank">Esse devil trigger feito pelo Kazuma Kaneko</a></li>
+    </ul>
+    <a href="tags.html">Link maneiro para outra pagina com coisas maneiras</a>
+</body>
+</html>
